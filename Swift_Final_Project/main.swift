@@ -9,13 +9,20 @@
 import Foundation
 
 
-func readJSONFromFile(fileName: String) -> Any?
+let urlPath = Bundle.main.url(forResource: "employee", withExtension: "json")
+let stringPath = Bundle.main.path(forResource: "employee", ofType: "json")
+print(urlPath)
+print(stringPath)
+
+
+/*func readJSONFromFile( employee : String) -> Any?
 {
+    
     var json: Any?
-    if let path = Bundle.main.path(forResource: fileName, ofType: "json")
+    if let path = Bundle.main.path(forResource:"employee", ofType: "json")
     {
         do {
-            let fileUrl = URL(fileURLWithPath: path)
+            let fileUrl = URL(  : path)
             // Getting data from JSON file using the file URL
             let data = try Data(contentsOf: fileUrl, options: .mappedIfSafe)
             json = try? JSONSerialization.jsonObject(with: data)
@@ -24,4 +31,4 @@ func readJSONFromFile(fileName: String) -> Any?
         }
     }
     return json
-}
+}*/
