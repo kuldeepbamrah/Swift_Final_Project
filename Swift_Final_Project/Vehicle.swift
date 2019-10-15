@@ -8,8 +8,12 @@
 
 import Foundation
 
-struct Vehicle
+struct Vehicle : Idisplay
 {
+    func display() {
+        
+    }
+    
     var make = String()
     var plate = String()
     
