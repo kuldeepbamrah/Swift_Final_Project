@@ -12,6 +12,7 @@
 		9BB9981B23568616007824D0 /* FixedBasedPartTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB9981A23568616007824D0 /* FixedBasedPartTime.swift */; };
 		9BB9981D235688A9007824D0 /* PartTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB9981C235688A9007824D0 /* PartTime.swift */; };
 		9BB9981F235689D9007824D0 /* FullTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB9981E235689D9007824D0 /* FullTime.swift */; };
+		9BB9982123568B62007824D0 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB9982023568B62007824D0 /* Employee.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		9BB9981A23568616007824D0 /* FixedBasedPartTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedBasedPartTime.swift; sourceTree = "<group>"; };
 		9BB9981C235688A9007824D0 /* PartTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartTime.swift; sourceTree = "<group>"; };
 		9BB9981E235689D9007824D0 /* FullTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullTime.swift; sourceTree = "<group>"; };
+		9BB9982023568B62007824D0 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				9BB9981A23568616007824D0 /* FixedBasedPartTime.swift */,
 				9BB9981E235689D9007824D0 /* FullTime.swift */,
 				9BB9981C235688A9007824D0 /* PartTime.swift */,
+				9BB9982023568B62007824D0 /* Employee.swift */,
 			);
 			path = Swift_Final_Project;
 			sourceTree = "<group>";
@@ -132,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BAD106423567C64009999A3 /* main.swift in Sources */,
+				9BB9982123568B62007824D0 /* Employee.swift in Sources */,
 				9BB9981F235689D9007824D0 /* FullTime.swift in Sources */,
 				9BB9981B23568616007824D0 /* FixedBasedPartTime.swift in Sources */,
 				9BB99819235680A6007824D0 /* Intern.swift in Sources */,
