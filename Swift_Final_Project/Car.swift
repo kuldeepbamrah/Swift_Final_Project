@@ -10,14 +10,18 @@ import Foundation
 
 class Car : Idisplay
 {
-    func display()
-    {
-        
-    }
-    
     let v = Vehicle()
     
     
     
+    
+    
+    
+    
+    
+    func display()
+    {
+        
+    }
     
 }
