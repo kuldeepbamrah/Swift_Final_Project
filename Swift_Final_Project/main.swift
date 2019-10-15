@@ -9,4 +9,5 @@
 import Foundation
 
 
-var str = "hello"
+//var str = "hello"
+
