@@ -1,5 +1,5 @@
 //
-//  main.swift
+//  Vehicle.swift
 //  Swift_Final_Project
 //
 //  Created by MacStudent on 2019-10-15.
@@ -8,3 +8,9 @@
 
 import Foundation
 
+struct Vehicle
+{
+    var make = String()
+    var plate = String()
+    
+}
