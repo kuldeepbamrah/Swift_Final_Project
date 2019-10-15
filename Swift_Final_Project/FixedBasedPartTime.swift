@@ -7,23 +7,23 @@
 //
 
 import Foundation
-class FixedBasedPartTime  {
-    var fixedAmount:Int!
+class FixedBasedPartTime: PartTime {
+    var fixedAmount:Double!
     var totalPay:Double!
     var employementType:String!
     
-    init(fixedAmount:Int,totalPay:Double,employementType:String) {
+    init(fixedAmount:Double,totalPay:Double,employementType:String) {
     
         self.fixedAmount = fixedAmount
         self.totalPay = totalPay
         self.employementType = employementType
     }
     
-//    func calcEarning()  {
-//        var  x:Double = 0
-//        x = rate * hoursWorked
-//        x = x + fixedAmount
-//    }
+    func calcEarning()  {
+        var  x:Double = 0
+        x = rate * hoursWorked
+        x = x + fixedAmount
+    }
     
     
 }
