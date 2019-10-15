@@ -19,6 +19,11 @@ class FixedBasedPartTime  {
         self.employementType = employementType
     }
     
+//    func calcEarning()  {
+//        var  x:Double = 0
+//        x = rate * hoursWorked
+//        x = x + fixedAmount
+//    }
     
     
 }
