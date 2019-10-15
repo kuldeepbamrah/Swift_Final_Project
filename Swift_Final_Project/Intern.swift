@@ -15,6 +15,10 @@ var totalPay:Double?
 var birtYear:Int?
 var employeeType: String?
 
+    init(schoolName:String,totalPay:Double,birthYear:Int){
+        self.schoolName = schoolName
+        self.totalPay = totalPay
+        self.birtYear = birthYear
 
 }
 //    func dispaly() {
