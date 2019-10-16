@@ -37,3 +37,4 @@ let firstChild = dictionary["children"]?[0] as? String      // Jack
 let secondChild = dictionary["children"]?[1] as? String     // Jill
 
 print(name)
+print(age)
