@@ -31,6 +31,7 @@
 		9BAD106A23567F36009999A3 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
 		9BAD106C235681B2009999A3 /* Idisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Idisplay.swift; sourceTree = "<group>"; };
 		9BAD106E2356827B009999A3 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		9BAD107023568AA3009999A3 /* employee.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = employee.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +68,7 @@
 				9BAD106A23567F36009999A3 /* Vehicle.swift */,
 				9BAD106E2356827B009999A3 /* Car.swift */,
 				9BAD106C235681B2009999A3 /* Idisplay.swift */,
+				9BAD107023568AA3009999A3 /* employee.json */,
 			);
 			path = Swift_Final_Project;
 			sourceTree = "<group>";

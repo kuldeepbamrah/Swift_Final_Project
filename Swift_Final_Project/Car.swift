@@ -10,17 +10,25 @@ import Foundation
 
 class Car : Idisplay
 {
-    let v = Vehicle()
+    var noOfDoors = Int()
+    var v = Vehicle()
+    var model = String()
+    var yearOfMake = String()
+    var insurance = Bool()
     
     
-    
-    
-    
-    
-    
+    init(noOfDoors : Int,make  : String, plate : String) {
+        v.make = make
+        v.plate = plate
+        self.noOfDoors = noOfDoors
+        
+        
+        
+    }
     
     func display()
     {
+        
         
     }
     

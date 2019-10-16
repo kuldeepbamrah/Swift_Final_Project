@@ -10,11 +10,12 @@ import Foundation
 
 struct Vehicle : Idisplay
 {
-    func display() {
-        
-    }
+    
     
     var make = String()
     var plate = String()
     
-}
+    
+    func display() {
+        
+    }}
