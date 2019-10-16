@@ -14,4 +14,5 @@ protocol Idisplay
     
     func display()
     
+    
 }

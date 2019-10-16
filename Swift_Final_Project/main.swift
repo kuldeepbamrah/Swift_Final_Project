@@ -7,28 +7,33 @@
 //
 
 import Foundation
+let string = "{\"name\": \"John\", \"age\": 35, \"children\": [\"Jack\", \"Jill\"]}"
 
-
-let urlPath = Bundle.main.url(forResource: "employee", withExtension: "json")
-let stringPath = Bundle.main.path(forResource: "employee", ofType: "json")
-print(urlPath)
-print(stringPath)
-
-
-/*func readJSONFromFile( employee : String) -> Any?
-{
+func JSONParseDictionary(string: String) -> [String: AnyObject]{
     
-    var json: Any?
-    if let path = Bundle.main.path(forResource:"employee", ofType: "json")
-    {
-        do {
-            let fileUrl = URL(  : path)
-            // Getting data from JSON file using the file URL
-            let data = try Data(contentsOf: fileUrl, options: .mappedIfSafe)
-            json = try? JSONSerialization.jsonObject(with: data)
-        } catch {
-            // Handle error here
+    
+    if let data = string.data(using: String.Encoding.utf8, allowLossyConversion: true){
+        
+        do{
+            if let dictionary = try JSONSerialization.jsonObject(with: data, options: JSONSerialization.ReadingOptions.mutableContainers) as? [String: AnyObject]{
+                
+                return dictionary
+                
+            }
+        }catch {
+            
+            print("error")
         }
     }
-    return json
-}*/
+    return [String: AnyObject]()
+}
+
+
+let dictionary = JSONParseDictionary(string: string)
+
+let name = dictionary["name"] as? String                    // John
+let age = dictionary["age"] as? Int                         // 35
+let firstChild = dictionary["children"]?[0] as? String      // Jack
+let secondChild = dictionary["children"]?[1] as? String     // Jill
+
+print(name)
