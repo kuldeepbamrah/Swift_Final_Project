@@ -7,7 +7,7 @@
 //
 
 import Foundation
-//Car class
+
 class Car : Idisplay
 {
     var noOfDoors = Int()
